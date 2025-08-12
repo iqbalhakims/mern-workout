@@ -1,6 +1,16 @@
-## Error Solved 
+## Error Solved
 
+### 1. Spelling Errors
 
-Spelling errors 
-router.get 
-module.exports = xxxxxxx /// missing s for exports 
+- **`router.get`**  
+  Fixed typo in route definition.
+
+- **`module.exports`**  
+  Fixed missing `s` in `exports`.  
+  Example:  
+  ```javascript
+  // Before
+  module.export = myFunction;
+
+  // After
+  module.exports = myFunction;
